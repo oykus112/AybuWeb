@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/news"
+    tools:context=".Haber">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="275dp"
+        android:id="@+id/url1"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/beyaz"/>
+    <Button
+        android:layout_marginTop="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/beyaz"
+        android:id="@+id/url1_button"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="göster"
+        android:layout_marginLeft="280dp"/>
+    <TextView
+        android:layout_width="275dp"
+        android:id="@+id/url2"
+        android:layout_height="50dp"
+        android:textColor="@color/beyaz"
+        android:layout_marginTop="150dp" />
+    <Button
+        android:layout_marginTop="150dp"
+        android:id="@+id/url2_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/beyaz"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="göster"
+        android:layout_marginLeft="280dp"/>
+    <TextView
+        android:layout_width="275dp"
+        android:id="@+id/url3"
+        android:textColor="@color/beyaz"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp" />
+    <Button
+        android:layout_marginTop="200dp"
+        android:id="@+id/url3_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/beyaz"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="göster"
+        android:layout_marginLeft="280dp"/>
+
+
+</FrameLayout>

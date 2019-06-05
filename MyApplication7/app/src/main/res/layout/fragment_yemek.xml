@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yemek"
+    tools:context=".Yemek">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/mavi"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:id="@+id/tarih"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/yemek1"
+        android:textSize="15dp"
+        android:textColor="@color/mavi"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="15dp"
+        android:textColor="@color/mavi"
+        android:id="@+id/yemek2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="240dp"/>
+
+    <TextView
+        android:id="@+id/yemek3"
+        android:textSize="15dp"
+        android:textColor="@color/mavi"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+         />
+
+    <TextView
+        android:id="@+id/yemek4"
+        android:textSize="15dp"
+        android:textColor="@color/mavi"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="360dp"
+        />
+</FrameLayout>

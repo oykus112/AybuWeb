@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/duyuru"
+    tools:context=".Duyuru">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/url1"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColor="@color/siyah"
+        android:layout_marginTop="80dp" />
+    <Button
+        android:layout_marginTop="80dp"
+        android:text="göster"
+        android:id="@+id/url1_button"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/beyaz"
+        android:layout_marginLeft="280dp"/>
+    <TextView
+        android:layout_width="275dp"
+        android:id="@+id/url2"
+        android:layout_height="50dp"
+        android:textColor="@color/siyah"
+        android:layout_marginTop="130dp" />
+    <Button
+        android:layout_marginTop="130dp"
+        android:text="göster"
+        android:id="@+id/url2_button"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/beyaz"
+        android:layout_marginLeft="280dp"/>
+    <TextView
+        android:layout_width="275dp"
+        android:id="@+id/url3"
+        android:layout_height="50dp"
+        android:textColor="@color/siyah"
+        android:layout_marginTop="180dp" />
+    <Button
+        android:layout_marginTop="180dp"
+        android:id="@+id/url3_button"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="göster"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/beyaz"
+        android:layout_marginLeft="280dp"/>
+    <TextView
+        android:layout_width="275dp"
+        android:id="@+id/url4"
+        android:layout_height="50dp"
+        android:textColor="@color/siyah"
+        android:layout_marginTop="230dp" />
+    <Button
+        android:layout_marginTop="230dp"
+        android:id="@+id/url4_button"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/beyaz"
+        android:text="göster"
+        android:layout_marginLeft="280dp"/>
+    <TextView
+        android:layout_width="275dp"
+        android:id="@+id/url5"
+        android:layout_height="50dp"
+        android:textColor="@color/siyah"
+        android:layout_marginTop="280dp" />
+    <Button
+        android:layout_marginTop="280dp"
+        android:id="@+id/url5_button"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="göster"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/beyaz"
+        android:layout_marginLeft="280dp"/>
+
+    <TextView
+        android:layout_width="275dp"
+        android:id="@+id/url6"
+        android:layout_height="50dp"
+        android:textColor="@color/siyah"
+        android:layout_marginTop="330dp" />
+    <Button
+        android:layout_marginTop="330dp"
+        android:id="@+id/url6_button"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/beyaz"
+        android:text="göster"
+        android:layout_marginLeft="280dp"/>
+
+</FrameLayout>
